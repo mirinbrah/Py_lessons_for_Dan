@@ -13,11 +13,12 @@ def main():
     print(f"Меня зовут {my_name}, и мне {my_age} лет.")
     '''
 
-    '''
+
+
     print("--- Блок 2 ---")
     user_name = input("Как тебя зовут? ")
     print(f"Приятно познакомиться, {user_name}!")
-    '''
+
 
     '''
     print("--- Блок 3 ---")
@@ -40,15 +41,15 @@ def main():
     print(f"Результат сложения чисел: {first_num + second_num}")
     '''
 
-    '''
-    print("--- Блок 5 ---")
+
+
     age_str = input("Введи свой возраст: ")
     try:
         age = int(age_str)
         print(f"Через год тебе будет {age + 1}.")
     except ValueError:
         print("Ошибка! Ты ввел не число.")
-    '''
+
 
     '''
     print("--- Блок 6 ---")
